@@ -1,0 +1,8 @@
+{
+    "name": "newProject",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Dell Vostro",
+    "contributors": [],
+    "dependencies": {}
+}

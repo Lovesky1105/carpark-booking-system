@@ -1,0 +1,81 @@
+
+<html>
+    <head>
+        <title>Price</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .bgimg{
+                opacity: 0.2;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: auto;
+                z-index: -1;
+              }
+             table{
+                width: 100%;
+             }
+               
+             p {
+                font-family: "Georgia", serif;
+              }
+              
+              .navMenu {
+                position: absolute;
+                width: 100% ;
+              }
+
+              .navMenu a {
+                color: #0b2761;
+                text-decoration: none;
+                font-size: 1.2em;
+                text-transform: uppercase;
+                font-weight: 500;
+                display: inline-block;
+                width: 100%;
+                -webkit-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+              }
+
+              .navMenu a:hover {
+                color: #CB4335;
+              }
+        </style>
+    </head>
+    <body>
+         <div class="navMenu">
+            <table >
+                <tr>
+                    <td><img src="projectIMG/intiLogo.png" alt="logo" width="100" height="120"/></td>
+                </tr>
+                
+                <tr>
+                <td   ><a href="homepage.html">Home Page</a> </td>
+                
+                <td  ><a href="booking.html">Booking Page</a></td>
+               
+                <td ><a href="price.html">Price Page</a></td>
+                
+                <td><a href="contact.html">Contact Us</a></td>
+               
+                <td ><a href="profile.html">Profile Page</a></td>
+               
+                </tr>
+            </table>
+        </div>
+        
+        <div>
+            <img class="bgimg" src="projectIMG/carpark.png" alt="carpark"/>
+            <h2>Price</h2>
+                <p>
+                    Total hours book this week:
+                </p><br>
+                <p>
+                    Price : RM
+                </p><br>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+
+<html>
+    <head>
+        <title>Search user </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="font.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       <div>
+           <ul class="ul">
+                 
+              <li class="li"><img src="assets/projectIMG/intiLogo.png" alt="logo" width="100" height="60"/></li>
+              <li class="li"><a class="active" href="admindashboard.html">Admin Dashboard Page</a></li>
+             <li class="li"><a class="active" href="add.html">Add User Page</a></li>
+              <li class="li"><a class="active" href="data.php">Data Analytic Page</a></li>
+              <li class="li"><a class="active" href="search.php">Search</a></li>
+             
+              <div style="float: right; width:30%">
+                    
+                    <div style="width: 100%;">
+                        <div style="width: 50%; height: 50px; float: left;"> 
+                                 <a href="adminProfile.php" class="btn btn-outline-danger" style="height: 40px;">Profile 
+                                                <i class="fa fa-user"></i> 
+                                         </a>    
+                        </div>
+                        
+                        <form action="logout.php">
+                            <div style="margin-left: 50%; height: 50px;"> 
+                                        <a href="logout.php" class="btn btn-outline-danger" style="height: 40px;">Log out 
+                                                    <i class="fa fa-sign-out"></i> 
+                                            </a>
+                            </div>
+                        </form>
+                    </div>
+
+            </ul> 
+        </div>
+        
+        <div class="form-style-9">
+            <form>
+                <h2>Search Bar</h2>
+                    <ul>
+                        <li>
+                        <label for="matrixNo">Matrix No :</label><br>
+                        <input type="text" id="matrixNo" name="matrixNo"><br><br>
+                        <li>
+
+                        <li><input type="submit" value="Submit"></li>
+                    </ul>
+            </form>
+            <img class="bgimg" src="assets/projectIMG/carpark.png" alt="carpark"/>
+        </div>
+    </body>
+</html>
